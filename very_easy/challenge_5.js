@@ -1,0 +1,1 @@
+exports.greatherLetter = (sentence) => sentence.split('').sort().reverse()[0]

@@ -1,0 +1,1 @@
+exports.individualQuadractElevation = (num) => parseInt(num.toString().split('').map(n => n * n).reduce((n1, n2) => n1 += n2, ''))
