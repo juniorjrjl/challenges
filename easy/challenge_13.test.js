@@ -1,6 +1,6 @@
 const { validId } = require('./challenge_13')
 
-describe('invert array', 
+describe('airship id validation', 
     () => it.each([
         [547020743789, true], 
         [301354030348, true], 

@@ -1,6 +1,6 @@
 const Person = require('./challenge_14')
 
-describe('invert array', 
+describe('generate flying license code', 
     () => it.each([
         ['John', 'Doe', new Date(1977, 4, 25, 0, 0, 0, 0), 'DOE99-7057.j'], 
         ['Hal', 'Jordan', new Date(1995, 8, 2, 0, 0, 0, 0), 'JORDA-9095.h'], 

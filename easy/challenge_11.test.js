@@ -1,6 +1,6 @@
 const { coordInterval } = require('./challenge_11')
 
-describe('invert array', 
+describe('get coordinates interval', 
     () => it.each([
         [[2, 2], [[0, 0], [0, 1], [0, 2], 
                     [1, 0], [1, 1], [1, 2], 

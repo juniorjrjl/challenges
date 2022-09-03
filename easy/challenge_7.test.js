@@ -1,6 +1,6 @@
 const { bidirectionalArrayToArray } = require('./challenge_7')
 
-describe('bidirectional array to array', 
+describe('bidirectional array to sorted array', 
     () => it.each([
             [[[1, 3, 5], [6, 19, 11], [47, 128, 5], [1, 93, 57, 42, 103]], [1, 1, 3, 5, 5, 6, 11, 19, 42, 47, 57, 93, 103, 128]], 
             [[[1, 3], [4, 8], [7, 5], [2, 6]], [1, 2, 3, 4, 5, 6, 7, 8]], 

@@ -1,6 +1,6 @@
 const { eachLetterHasSameAmount } = require('./challenge_9')
 
-describe('greather letter', 
+describe('verify if text have pair for each letter', 
     () => it.each([
         ['This is Thee', true], 
         ['ssd', false], 

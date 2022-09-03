@@ -1,6 +1,6 @@
 const { genChunks } = require('./challenge_2')
 
-describe('gen chunk', 
+describe('gen chunks', 
     () => it.each([
             [4, 'chunk-chunk-chunk-chunk'], 
             [1, 'chunk'], 

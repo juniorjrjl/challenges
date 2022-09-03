@@ -1,6 +1,6 @@
 const { abbrName } = require('./challenge_8')
 
-describe('greather letter', 
+describe('abbreviate name', 
     () => it.each([
         ['Isaac Larrubia Ferreira Pontes', 'PONTES, I. L. F.'], 
         ['John Ronald Reuel Tolkien', 'TOLKIEN, J. R. R.'], 

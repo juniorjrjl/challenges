@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for easy/challenge_11.js</title>
+    <title>Code coverage report for medium/challenge_15.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">easy</a> challenge_11.js</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">medium</a> challenge_15.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>8/8</span>
+                <span class='fraction'>18/18</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/0</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>6/6</span>
+                <span class='fraction'>16/16</span>
             </div>
         
             
@@ -71,22 +71,58 @@
 <a name='L6'></a><a href='#L6'>6</a>
 <a name='L7'></a><a href='#L7'>7</a>
 <a name='L8'></a><a href='#L8'>8</a>
-<a name='L9'></a><a href='#L9'>9</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-yes">89x</span>
+<span class="cline-any cline-yes">27x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">exports.coordInterval = (coord) =&gt; {
-    let coordStruct = []
-    for (let i = 0; i &lt;= coord[0]; i++) {
-        for (let x = 0; x &lt;= coord[1]; x++) {
-            coordStruct.push([i, x])
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const possibleRomanAlgorism = ['I', 'V', 'X', 'L', 'C', 'D', 'M']
+const algorism = [1, 5, 10, 50, 100, 500, 1000]
+&nbsp;
+exports.romanNumberToNumber = (romanNumber) =&gt; {
+    const romanAlgorism = romanNumber.toUpperCase().split('')
+    const romanAlgorismIndexes = []
+    romanAlgorism.forEach(a =&gt; romanAlgorismIndexes.push(possibleRomanAlgorism.indexOf(a)));
+    let convertedNumber = 0
+    while(romanAlgorismIndexes.length !== 0){
+        let currElement = romanAlgorismIndexes[0]
+        if (currElement &lt; romanAlgorismIndexes[1]) {
+            convertedNumber = convertedNumber + (algorism[romanAlgorismIndexes[1]] - algorism[currElement])
+            romanAlgorismIndexes.splice(0, 2)
+        } else {
+            const currElementOccurrences = romanAlgorismIndexes.filter((a, i) =&gt; i &lt; 3 &amp;&amp; a === currElement).length
+            convertedNumber = convertedNumber + (algorism[currElement] * currElementOccurrences)
+            romanAlgorismIndexes.splice(0, currElementOccurrences)
         }
     }
-    return coordStruct
+    return convertedNumber;
 }</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->

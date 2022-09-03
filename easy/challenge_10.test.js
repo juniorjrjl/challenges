@@ -1,6 +1,6 @@
 const { factorial } = require('./challenge_10')
 
-describe('greather letter', 
+describe('generate factorial', 
     () => it.each([
         [5, 120n], 
         [0, 1n], 

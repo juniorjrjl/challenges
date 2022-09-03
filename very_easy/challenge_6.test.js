@@ -1,6 +1,6 @@
 const { invertWords } = require('./challenge_6')
 
-describe('greather letter', 
+describe('invert letters words', 
     () => it.each([
         ['Lorem ipsum dolore sec avanti', 'merol muspi erolod ces itnava'], 
         ['This is an apple', 'siht si na elppa'], 
