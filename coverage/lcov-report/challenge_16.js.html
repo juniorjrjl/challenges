@@ -3,15 +3,15 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for medium/challenge_15.js</title>
+    <title>Code coverage report for challenge_16.js</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../prettify.css" />
-    <link rel="stylesheet" href="../base.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <link rel="stylesheet" href="prettify.css" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(../sort-arrow-sprite.png);
+            background-image: url(sort-arrow-sprite.png);
         }
     </style>
 </head>
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">medium</a> challenge_15.js</h1>
+        <h1><a href="index.html">All files</a> challenge_16.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>15/15</span>
+                <span class='fraction'>16/16</span>
             </div>
         
             
@@ -87,80 +87,71 @@
 <a name='L22'></a><a href='#L22'>22</a>
 <a name='L23'></a><a href='#L23'>23</a>
 <a name='L24'></a><a href='#L24'>24</a>
-<a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a>
-<a name='L27'></a><a href='#L27'>27</a>
-<a name='L28'></a><a href='#L28'>28</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L25'></a><a href='#L25'>25</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-yes">53x</span>
+<span class="cline-any cline-yes">53x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-yes">26x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">13x</span>
-<span class="cline-any cline-yes">13x</span>
-<span class="cline-any cline-yes">13x</span>
-<span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">27x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">28x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">53x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">29x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const numbersConfig = {
-    'I': 1,
-    'V': 5,
-    'X': 10,
-    'L': 50,
-    'C': 100,
-    'D': 500,
-    'M': 1000
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const FIRST_LETTER_LOWER_CASE = 97
+const LAST_LETTER_LOWER_CASE = 122
+const FIRST_LETTER_UPPER_CASE = 65
+const LAST_LETTER_UPPER_CASE = 90
+&nbsp;
+reduceLetter = (letterDecimal, code, fitstCodeBase, lastCodeBase) =&gt; {
+    while(code !== 0){
+        let decValue = 0
+        if (letterDecimal - code &lt; fitstCodeBase) {
+            decValue = (letterDecimal - fitstCodeBase) + 1
+            letterDecimal = lastCodeBase
+        }else {
+            decValue = code
+            letterDecimal -= decValue
+        }
+        code -= decValue
+    }
+    return String.fromCharCode(letterDecimal)
 }
 &nbsp;
-exports.romanNumberToNumber = (romanNumber) =&gt; {
-    const romanAlgorism = romanNumber.toUpperCase().split('')
-    const convertedDigits = romanAlgorism.map(a =&gt; numbersConfig[a])
-    let convertedNumber = 0
-    while(convertedDigits.length !== 0){
-        const currElement = convertedDigits[0]
-        const nextElement = convertedDigits[1]
-        if (currElement &lt; nextElement) {
-            convertedNumber = convertedNumber + (nextElement - currElement)
-            convertedDigits.splice(0, 2)
-        } else {
-            const currElementOccurrences = convertedDigits.filter((a, i) =&gt; i &lt; 3 &amp;&amp; a === currElement).length
-            convertedNumber = convertedNumber + (currElement * currElementOccurrences)
-            convertedDigits.splice(0, currElementOccurrences)
-        }
-    }
-    return convertedNumber;
-}</pre></td></tr></table></pre>
+exports.caesarCipher = (sentence, code) =&gt; sentence.split('')
+    .map(l =&gt; l === l.toUpperCase() ? 
+                        reduceLetter(l.charCodeAt(0), code, FIRST_LETTER_UPPER_CASE, LAST_LETTER_UPPER_CASE) : 
+                        reduceLetter(l.charCodeAt(0), code, FIRST_LETTER_LOWER_CASE, LAST_LETTER_LOWER_CASE))
+    .join('')</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-09-04T17:42:28.904Z
+                at 2022-09-04T18:00:09.828Z
             </div>
-        <script src="../prettify.js"></script>
+        <script src="prettify.js"></script>
         <script>
             window.onload = function () {
                 prettyPrint();
             };
         </script>
-        <script src="../sorter.js"></script>
-        <script src="../block-navigation.js"></script>
+        <script src="sorter.js"></script>
+        <script src="block-navigation.js"></script>
     </body>
 </html>
     

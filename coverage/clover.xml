@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1662231118954" clover="3.2.0">
-  <project timestamp="1662231118955" name="All files">
-    <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="22" coveredelements="22" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
-    <file name="challenge_15.js" path="/chanllenges/medium/challenge_15.js">
-      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+<coverage generated="1662314409902" clover="3.2.0">
+  <project timestamp="1662314409903" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="23" coveredelements="23" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
+    <file name="challenge_16.js" path="/chanllenges/medium/challenge_16.js">
+      <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="4" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="29" type="stmt"/>
+      <line num="8" count="53" type="stmt"/>
+      <line num="9" count="53" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="26" type="stmt"/>
+      <line num="11" count="26" type="stmt"/>
       <line num="13" count="27" type="stmt"/>
-      <line num="14" count="4" type="stmt"/>
-      <line num="15" count="4" type="stmt"/>
-      <line num="16" count="13" type="stmt"/>
-      <line num="17" count="13" type="stmt"/>
-      <line num="18" count="13" type="cond" truecount="2" falsecount="0"/>
-      <line num="19" count="7" type="stmt"/>
-      <line num="20" count="7" type="stmt"/>
-      <line num="22" count="28" type="cond" truecount="2" falsecount="0"/>
-      <line num="23" count="6" type="stmt"/>
-      <line num="24" count="6" type="stmt"/>
-      <line num="27" count="4" type="stmt"/>
+      <line num="14" count="27" type="stmt"/>
+      <line num="16" count="53" type="stmt"/>
+      <line num="18" count="29" type="stmt"/>
+      <line num="21" count="4" type="stmt"/>
+      <line num="22" count="29" type="cond" truecount="2" falsecount="0"/>
     </file>
   </project>
 </coverage>
