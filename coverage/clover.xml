@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1662646507334" clover="3.2.0">
-  <project timestamp="1662646507334" name="All files">
-    <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2" elements="16" coveredelements="16" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
-    <file name="challenge_20.js" path="/chanllenges/medium/challenge_20.js">
-      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="10" type="cond" truecount="2" falsecount="0"/>
-      <line num="4" count="3" type="stmt"/>
-      <line num="6" count="7" type="stmt"/>
-      <line num="7" count="7" type="stmt"/>
-      <line num="9" count="7" type="stmt"/>
-      <line num="11" count="7" type="stmt"/>
-      <line num="13" count="7" type="stmt"/>
-      <line num="14" count="14" type="stmt"/>
-      <line num="15" count="42" type="stmt"/>
-      <line num="16" count="42" type="stmt"/>
-      <line num="19" count="7" type="stmt"/>
+<coverage generated="1662663166481" clover="3.2.0">
+  <project timestamp="1662663166482" name="All files">
+    <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4" elements="11" coveredelements="11" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
+    <file name="challenge_21.js" path="/chanllenges/medium/challenge_21.js">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="17" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="4" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
