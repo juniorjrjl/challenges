@@ -11,14 +11,14 @@ describe('generate possible password by options',
                 ["-", "s", "X", "#"], ["-", "s", "#", "X"], 
                 ["X", "-", "#", "s"], ["-", "X", "#", "s"], 
                 ["-", "#", "X", "s"], ["-", "#", "s", "X"], 
-                ["X", "s", "#", "-"], ["s", "X", "#", "X"], 
-                ["s", "#", "X", "-"], ["s", "#", "-", "-"], 
+                ["X", "s", "#", "-"], ["s", "X", "#", "-"], 
+                ["s", "#", "X", "-"], ["s", "#", "-", "X"], 
                 ["X", "#", "s", "-"], ["#", "X", "s", "-"], 
                 ["#", "s", "X", "-"], ["#", "s", "-", "X"], 
                 ["X", "#", "-", "s"], ["#", "X", "-", "s"], 
                 ["#", "-", "X", "s"], ["#", "-", "s", "X"]
             ]
-        ], 
+        ],
         [
             ["1", "2", "3"],
             [
@@ -29,8 +29,8 @@ describe('generate possible password by options',
         ], 
         [
             [],
-            []
+            [[]]
         ],
     ])
         ('when options is %s then possible options is %s', 
-        (options, expected) => expect(passwordBreaker(options)).toEqual(expected)))
+        (options, expected) => expect(passwordBreaker(options).sort()).toEqual(expected.sort())))
