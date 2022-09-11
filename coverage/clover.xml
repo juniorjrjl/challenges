@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1662667516603" clover="3.2.0">
-  <project timestamp="1662667516603" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6" elements="14" coveredelements="14" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
-    <file name="challenge_22.js" path="/chanllenges/medium/challenge_22.js">
-      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="3" count="108" type="stmt"/>
-      <line num="4" count="45" type="stmt"/>
-      <line num="5" count="45" type="stmt"/>
-      <line num="6" count="7" type="stmt"/>
+<coverage generated="1662930508635" clover="3.2.0">
+  <project timestamp="1662930508635" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2" elements="24" coveredelements="24" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+    <file name="challenge_24.js" path="/chanllenges/hard/challenge_24.js">
+      <metrics statements="10" coveredstatements="10" conditionals="12" coveredconditionals="12" methods="2" coveredmethods="2"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="8" count="5" type="cond" truecount="7" falsecount="0"/>
+      <line num="13" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="21" count="4" type="stmt"/>
+      <line num="25" count="4" type="stmt"/>
+      <line num="29" count="3" type="stmt"/>
+      <line num="33" count="2" type="cond" truecount="3" falsecount="0"/>
+      <line num="37" count="2" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

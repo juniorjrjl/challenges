@@ -1,4 +1,4 @@
-const Challenge = require('./challenge_21')
+const { Coordinates } = require('./challenge_21')
 
 describe('System Location', 
     () => it.each([
@@ -9,7 +9,7 @@ describe('System Location',
     ])
         ('when positions is {x: %s, y: %s, z: %s} then sector is %s and distance is %s', 
         (x, y, z, expectedSector, expectedDistance) => {
-            let coordinates = new Challenge.Coordinates(x, y, z)
+            let coordinates = new Coordinates(x, y, z)
             expect(coordinates.getSector()).toEqual(expectedSector)
             expect(coordinates.getDistance()).toBe(expectedDistance)
         }))

@@ -1,4 +1,4 @@
-const Challenge = require('./challenge_18')
+const { Equation, InvalidEquationArgsError } = require('./challenge_18')
 
 describe('resolve equation', 
     () => it.each([
@@ -7,7 +7,7 @@ describe('resolve equation',
     ])
         ('when input values is %s, %s and %s then expected %s', 
         (a, b, c, expected) => {
-            const equation = new Challenge.Equation(a, b, c)
+            const equation = new Equation(a, b, c)
             console.log(equation)
             expect(equation.getEquationResult()).toEqual(expected)
         })
@@ -20,5 +20,5 @@ describe('invalid args',
         ['a', 'a', 'a']
     ])
         ('when inputs is %, %s and %s then throw error', 
-        (a, b, c) => expect(() => new Challenge.Equation(a, b, c).getEquationResult()).toThrowError(Challenge.InvalidEquationArgsError))
+        (a, b, c) => expect(() => new Equation(a, b, c).getEquationResult()).toThrowError(InvalidEquationArgsError))
 )
