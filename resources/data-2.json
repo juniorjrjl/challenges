@@ -1,0 +1,1170 @@
+{
+  "connections": [
+    {
+      "_id": "619458ddbd252003f1af26d7",
+      "index": 0,
+      "label": "excepteur",
+      "guid": "4bf025ea-be49-4ffb-b312-7cddf9e3f342",
+      "isActive": false,
+      "picture": "http://placehold.it/32x32",
+      "level": 31,
+      "about": "Pariatur Lorem ullamco duis nisi veniam eiusmod enim ad mollit minim ullamco irure elit excepteur. Pariatur minim do esse non nisi ut. Nulla in ad ipsum culpa tempor mollit ipsum est eu eu deserunt. Aliquip laborum qui aliquip id nisi nisi consectetur excepteur officia et duis commodo pariatur reprehenderit. Veniam mollit est mollit minim minim consectetur adipisicing laborum adipisicing laboris officia adipisicing. Mollit ea nisi fugiat occaecat labore tempor deserunt excepteur proident et sint.\r\n",
+      "registered": "2015-10-08T05:33:43 +03:00",
+      "latitude": 69.701393,
+      "longitude": 134.735163,
+      "connections": [
+        {
+          "_id": "619458dd5f3f2c3a960699ee",
+          "index": 0,
+          "label": "magna",
+          "guid": "0df77b6d-7a0f-492e-81e7-41afe6daf770",
+          "isActive": true,
+          "picture": "http://placehold.it/32x32",
+          "level": 21,
+          "about": "Occaecat enim ullamco deserunt adipisicing et ad elit. Qui mollit laboris laboris esse minim nisi veniam adipisicing commodo non nostrud est ex dolor. Amet laboris dolor qui labore irure. Esse minim labore et incididunt et.\r\n",
+          "registered": "2016-09-08T04:56:43 +03:00",
+          "latitude": 43.593546,
+          "longitude": 67.305335,
+          "tags": [
+            "exercitation",
+            "occaecat",
+            "consectetur",
+            "laboris",
+            "consectetur",
+            "cupidatat",
+            "magna"
+          ]
+        },
+        {
+          "_id": "619458dda33df05fe436c58b",
+          "index": 1,
+          "label": "ut",
+          "guid": "2c985fe0-a959-41a9-acc7-ec66ef22e66f",
+          "isActive": true,
+          "picture": "http://placehold.it/32x32",
+          "level": 38,
+          "about": "Consequat aute veniam exercitation anim laborum adipisicing consectetur exercitation. Occaecat nostrud ut consequat exercitation aliqua eiusmod adipisicing magna do anim esse aute minim ullamco. Reprehenderit fugiat incididunt fugiat cillum proident enim. Aliqua aute qui sint aliqua dolor reprehenderit nostrud duis amet labore irure tempor dolor. Proident aute duis mollit sunt consequat sit eiusmod elit incididunt excepteur occaecat. Incididunt id exercitation cillum sunt est.\r\n",
+          "registered": "2021-07-17T06:14:24 +03:00",
+          "latitude": -54.626146,
+          "longitude": -23.612531,
+          "tags": [
+            "veniam",
+            "deserunt",
+            "Lorem",
+            "ipsum",
+            "amet",
+            "ea",
+            "consequat"
+          ]
+        },
+        {
+          "_id": "619458dd9417574283a31884",
+          "index": 2,
+          "label": "amet",
+          "guid": "86494e71-cd42-4043-a107-3a6719115e7d",
+          "isActive": false,
+          "picture": "http://placehold.it/32x32",
+          "level": 37,
+          "about": "Nisi dolor veniam ad minim id mollit in commodo veniam ad tempor consequat anim proident. Cupidatat sit aliqua sunt reprehenderit incididunt ea irure ut reprehenderit deserunt anim laborum minim amet. Veniam deserunt sit commodo est ea ad commodo reprehenderit laboris minim laboris officia pariatur. Anim amet sit elit est sint tempor et qui in enim. Nisi ex officia pariatur aliquip ea est elit ea non officia elit do officia mollit. Tempor nulla culpa ullamco anim Lorem quis aliquip eu. Ex occaecat magna culpa officia.\r\n",
+          "registered": "2017-05-30T01:58:43 +03:00",
+          "latitude": -18.248142,
+          "longitude": -79.444522,
+          "tags": [
+            "voluptate",
+            "consequat",
+            "id",
+            "Lorem",
+            "cillum",
+            "esse",
+            "ea"
+          ]
+        },
+        {
+          "_id": "619458dd9ee181dd0f2546ac",
+          "index": 3,
+          "label": "eiusmod",
+          "guid": "48adad50-73a3-4159-b4ac-519d306d3412",
+          "isActive": false,
+          "picture": "http://placehold.it/32x32",
+          "level": 27,
+          "about": "Exercitation dolor et enim culpa Lorem. Eu amet anim in mollit dolor mollit dolor officia sit enim. Amet sit proident excepteur nostrud do minim qui irure incididunt deserunt culpa labore mollit. Ad non dolore commodo ut consectetur esse fugiat irure aliqua exercitation ullamco.\r\n",
+          "registered": "2021-03-07T11:29:35 +03:00",
+          "latitude": 16.782949,
+          "longitude": -12.141982,
+          "tags": [
+            "proident",
+            "ipsum",
+            "enim",
+            "aute",
+            "sunt",
+            "nisi",
+            "elit"
+          ]
+        }
+      ],
+      "tags": [
+        "reprehenderit",
+        "sunt",
+        "enim",
+        "ullamco",
+        "laborum",
+        "dolore",
+        "aliqua"
+      ],
+      "folders": [
+        {
+          "id": 0,
+          "name": "velit",
+          "label": "folder-label",
+          "highlight": "yellow",
+          "files": [
+            {
+              "id": 0,
+              "name": "ea",
+              "label": "file-label",
+              "balance": "$2,361.93",
+              "highlight": "red",
+              "connection": {
+                "_id": "619458dd2796c7757cac2a31",
+                "index": 0,
+                "label": "veniam",
+                "guid": "43a663ff-898c-4f2d-b669-4fc652fe389c",
+                "isActive": false,
+                "balance": "$3,444.59",
+                "picture": "http://placehold.it/32x32",
+                "level": 22,
+                "highlight": "orange",
+                "about": "Ex incididunt ad eu ex amet veniam exercitation est aliquip ipsum. Eiusmod elit nulla ad irure pariatur. Dolor amet adipisicing excepteur esse. Non nisi anim incididunt ullamco est id irure ipsum. Proident reprehenderit anim elit et ut adipisicing aute. Aliquip occaecat pariatur ad culpa fugiat ad do irure voluptate culpa incididunt elit. Incididunt ex est aliquip in aliqua aliqua.\r\n",
+                "registered": "2016-08-26T10:06:21 +03:00",
+                "latitude": 32.552899,
+                "longitude": 80.568976,
+                "tags": [
+                  "fugiat",
+                  "incididunt",
+                  "aliqua",
+                  "tempor",
+                  "officia",
+                  "officia",
+                  "dolor"
+                ]
+              }
+            },
+            {
+              "id": 1,
+              "name": "ipsum",
+              "label": "file-label",
+              "balance": "$2,298.11",
+              "highlight": "orange",
+              "connection": {
+                "_id": "619458dd53184c73028678a5",
+                "index": 1,
+                "label": "commodo",
+                "guid": "03c7550e-c2f8-4332-875f-2a20a2033724",
+                "isActive": true,
+                "balance": "$3,172.02",
+                "picture": "http://placehold.it/32x32",
+                "level": 33,
+                "highlight": "red",
+                "about": "Ipsum ea aute veniam dolor laboris dolor Lorem fugiat consectetur anim ex ipsum est esse. Reprehenderit velit irure ut exercitation esse aliquip. Elit incididunt adipisicing tempor fugiat Lorem Lorem in. Aliquip cillum elit ipsum sint cupidatat velit velit ad voluptate consequat cillum do tempor.\r\n",
+                "registered": "2018-06-02T10:50:54 +03:00",
+                "latitude": 31.397523,
+                "longitude": 81.359424,
+                "tags": [
+                  "ullamco",
+                  "culpa",
+                  "do",
+                  "sit",
+                  "reprehenderit",
+                  "commodo",
+                  "ea"
+                ]
+              }
+            },
+            {
+              "id": 2,
+              "name": "exercitation",
+              "label": "file-label",
+              "balance": "$3,784.74",
+              "highlight": "yellow",
+              "connection": {
+                "_id": "619458ddf9df8810fd8c5170",
+                "index": 2,
+                "label": "sunt",
+                "guid": "96d98817-8aec-454d-9382-c4686a8be271",
+                "isActive": true,
+                "balance": "$2,543.25",
+                "picture": "http://placehold.it/32x32",
+                "level": 25,
+                "highlight": "orange",
+                "about": "Non tempor excepteur deserunt incididunt ea magna culpa nulla. Dolore commodo ullamco ut dolore velit ad proident enim culpa incididunt fugiat cupidatat incididunt. Tempor nostrud enim ullamco cupidatat consequat et aute aute proident do voluptate cupidatat. Ut ullamco incididunt cillum commodo. Id labore laboris dolor consectetur magna ex quis sint ullamco exercitation. Minim irure veniam officia pariatur ipsum labore laboris voluptate esse.\r\n",
+                "registered": "2016-02-04T03:17:20 +02:00",
+                "latitude": 5.731819,
+                "longitude": 106.430602,
+                "tags": [
+                  "exercitation",
+                  "nisi",
+                  "amet",
+                  "incididunt",
+                  "elit",
+                  "reprehenderit",
+                  "cupidatat"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "minim",
+          "label": "folder-label",
+          "highlight": "yellow",
+          "files": [
+            {
+              "id": 0,
+              "name": "esse",
+              "label": "file-label",
+              "balance": "$3,040.42",
+              "highlight": "red",
+              "connection": {
+                "_id": "619458ddacef0c3dab263a25",
+                "index": 0,
+                "label": "consequat",
+                "guid": "e5456222-eef7-4144-91ea-a3e9bf496476",
+                "isActive": false,
+                "balance": "$3,633.58",
+                "picture": "http://placehold.it/32x32",
+                "level": 20,
+                "highlight": "yellow",
+                "about": "Excepteur ex reprehenderit consectetur culpa cupidatat nostrud voluptate. Ut est non cillum sit velit minim et voluptate consequat ad ea. Mollit mollit proident minim do ad ut nisi officia sunt ut sint labore deserunt nisi. Mollit quis ea commodo non incididunt officia irure deserunt fugiat veniam nulla duis labore. Voluptate consectetur aliquip fugiat reprehenderit cillum amet veniam. Pariatur laboris voluptate id proident tempor commodo incididunt cillum. Nostrud elit incididunt elit consectetur irure quis cillum nisi fugiat do irure ipsum proident.\r\n",
+                "registered": "2017-05-04T01:37:20 +03:00",
+                "latitude": 12.774345,
+                "longitude": 42.006955,
+                "tags": [
+                  "Lorem",
+                  "ad",
+                  "minim",
+                  "et",
+                  "minim",
+                  "do",
+                  "ea"
+                ]
+              }
+            },
+            {
+              "id": 1,
+              "name": "et",
+              "label": "file-label",
+              "balance": "$3,203.24",
+              "highlight": "purple",
+              "connection": {
+                "_id": "619458dd1777928fa04e4b60",
+                "index": 1,
+                "label": "laborum",
+                "guid": "9b1335c1-8d8a-47a2-b22a-2a807af11434",
+                "isActive": true,
+                "balance": "$2,723.32",
+                "picture": "http://placehold.it/32x32",
+                "level": 39,
+                "highlight": "orange",
+                "about": "Cillum sit eu in esse ipsum consequat cillum cillum. Irure adipisicing ullamco minim ipsum. Nostrud excepteur amet non pariatur non. Excepteur nisi ut irure irure in tempor quis. Ipsum cupidatat anim id elit dolore et cillum nostrud cillum.\r\n",
+                "registered": "2018-01-26T02:51:49 +02:00",
+                "latitude": 72.966857,
+                "longitude": -19.726548,
+                "tags": [
+                  "officia",
+                  "culpa",
+                  "eu",
+                  "reprehenderit",
+                  "ea",
+                  "occaecat",
+                  "et"
+                ]
+              }
+            },
+            {
+              "id": 2,
+              "name": "excepteur",
+              "label": "file-label",
+              "balance": "$3,222.76",
+              "highlight": "brown",
+              "connection": {
+                "_id": "619458dde73b4388970139b9",
+                "index": 2,
+                "label": "occaecat",
+                "guid": "f53bbfb4-0cbc-41b7-9a23-d28f6028c4da",
+                "isActive": true,
+                "balance": "$3,126.22",
+                "picture": "http://placehold.it/32x32",
+                "level": 30,
+                "highlight": "blue",
+                "about": "Sit occaecat quis minim dolor exercitation enim sunt pariatur cupidatat aute voluptate excepteur nostrud dolor. Culpa officia exercitation adipisicing cillum. Eu cillum reprehenderit irure dolor qui. Labore excepteur sunt fugiat do laborum excepteur dolore nostrud fugiat in mollit incididunt. Amet amet Lorem esse consequat sint consequat. Enim nostrud sit magna nisi voluptate qui voluptate esse eiusmod.\r\n",
+                "registered": "2017-02-02T08:13:06 +02:00",
+                "latitude": 31.889676,
+                "longitude": -106.666292,
+                "tags": [
+                  "sit",
+                  "et",
+                  "culpa",
+                  "do",
+                  "deserunt",
+                  "elit",
+                  "consequat"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "minim",
+          "label": "folder-label",
+          "highlight": "yellow",
+          "files": [
+            {
+              "id": 0,
+              "name": "minim",
+              "label": "file-label",
+              "balance": "$2,738.90",
+              "highlight": "orange",
+              "connection": {
+                "_id": "619458dd06e226a24beae5d0",
+                "index": 0,
+                "label": "eiusmod",
+                "guid": "ccc547ea-0a0e-4661-939c-e752564db359",
+                "isActive": false,
+                "balance": "$3,923.34",
+                "picture": "http://placehold.it/32x32",
+                "level": 25,
+                "highlight": "blue",
+                "about": "Dolor incididunt veniam reprehenderit in commodo qui. Occaecat officia adipisicing dolor qui est officia aliqua ullamco tempor do fugiat duis aliqua. Labore labore consequat eiusmod aute deserunt. Minim adipisicing et in culpa cillum. Voluptate sint dolor velit mollit minim ipsum veniam Lorem velit exercitation.\r\n",
+                "registered": "2019-03-25T12:18:59 +03:00",
+                "latitude": 42.61131,
+                "longitude": 26.117745,
+                "tags": [
+                  "quis",
+                  "qui",
+                  "est",
+                  "labore",
+                  "consectetur",
+                  "cupidatat",
+                  "culpa"
+                ]
+              }
+            },
+            {
+              "id": 1,
+              "name": "laboris",
+              "label": "file-label",
+              "balance": "$1,330.82",
+              "highlight": "brown",
+              "connection": {
+                "_id": "619458dd189439491e1df67f",
+                "index": 1,
+                "label": "non",
+                "guid": "1876811d-2618-44b4-ab9e-ce4f923ef200",
+                "isActive": true,
+                "balance": "$2,841.30",
+                "picture": "http://placehold.it/32x32",
+                "level": 39,
+                "highlight": "blue",
+                "about": "Velit dolore cillum consequat deserunt sint velit. Veniam dolore amet nulla pariatur culpa anim irure et sunt ullamco ipsum. Cupidatat proident ex officia sit minim culpa ex dolore ea est in nostrud duis.\r\n",
+                "registered": "2018-07-02T08:00:10 +03:00",
+                "latitude": -5.943167,
+                "longitude": 151.904277,
+                "tags": [
+                  "qui",
+                  "labore",
+                  "nisi",
+                  "sit",
+                  "deserunt",
+                  "cupidatat",
+                  "pariatur"
+                ]
+              }
+            },
+            {
+              "id": 2,
+              "name": "aliqua",
+              "label": "file-label",
+              "balance": "$3,568.35",
+              "highlight": "red",
+              "connection": {
+                "_id": "619458dd8b31ad260f573d42",
+                "index": 2,
+                "label": "non",
+                "guid": "c87de73a-713b-4b58-b436-b01f68ac5c32",
+                "isActive": false,
+                "balance": "$1,191.40",
+                "picture": "http://placehold.it/32x32",
+                "level": 27,
+                "highlight": "green",
+                "about": "Cillum esse voluptate dolore id esse veniam aliquip laboris. Nisi do consequat exercitation excepteur eiusmod. Qui dolore Lorem ad qui.\r\n",
+                "registered": "2016-10-22T02:39:22 +02:00",
+                "latitude": 47.955147,
+                "longitude": -73.42948,
+                "tags": [
+                  "sint",
+                  "culpa",
+                  "excepteur",
+                  "Lorem",
+                  "eu",
+                  "eiusmod",
+                  "Lorem"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "tempor",
+          "label": "folder-label",
+          "highlight": "orange",
+          "files": [
+            {
+              "id": 0,
+              "name": "eiusmod",
+              "label": "file-label",
+              "balance": "$3,977.38",
+              "highlight": "yellow",
+              "connection": {
+                "_id": "619458ddb6041893a30fea6b",
+                "index": 0,
+                "label": "sint",
+                "guid": "35c33f9e-cf08-4a26-bef7-375f82fdaa47",
+                "isActive": true,
+                "balance": "$2,381.39",
+                "picture": "http://placehold.it/32x32",
+                "level": 38,
+                "highlight": "red",
+                "about": "Elit aute ut incididunt anim laborum. Ad anim aute cillum do officia. Id deserunt exercitation aute ad ipsum veniam adipisicing consequat eiusmod.\r\n",
+                "registered": "2019-09-10T11:35:15 +03:00",
+                "latitude": -81.457171,
+                "longitude": -101.817049,
+                "tags": [
+                  "ullamco",
+                  "proident",
+                  "non",
+                  "sunt",
+                  "cillum",
+                  "magna",
+                  "cupidatat"
+                ]
+              }
+            },
+            {
+              "id": 1,
+              "name": "voluptate",
+              "label": "file-label",
+              "balance": "$2,729.47",
+              "highlight": "brown",
+              "connection": {
+                "_id": "619458dd48b276ccd9130030",
+                "index": 1,
+                "label": "proident",
+                "guid": "dbeba444-05f4-4836-8ade-1c3e0e70f5d2",
+                "isActive": false,
+                "balance": "$3,479.76",
+                "picture": "http://placehold.it/32x32",
+                "level": 32,
+                "highlight": "purple",
+                "about": "Eu voluptate commodo irure adipisicing non ad. Tempor minim ut veniam nulla id laborum commodo incididunt culpa Lorem tempor nisi. Velit excepteur quis dolor sint nulla velit laborum. Aute cillum ex anim anim in ut. Anim aliquip non ipsum consequat. Elit reprehenderit ea ea velit anim est anim dolore ex quis aute eiusmod.\r\n",
+                "registered": "2018-07-25T11:23:14 +03:00",
+                "latitude": 35.011047,
+                "longitude": -151.039297,
+                "tags": [
+                  "veniam",
+                  "exercitation",
+                  "non",
+                  "nostrud",
+                  "qui",
+                  "commodo",
+                  "in"
+                ]
+              }
+            },
+            {
+              "id": 2,
+              "name": "aute",
+              "label": "file-label",
+              "balance": "$1,723.30",
+              "highlight": "brown",
+              "connection": {
+                "_id": "619458dda25a7c0fe57aaed5",
+                "index": 2,
+                "label": "pariatur",
+                "guid": "86cde039-6c81-4575-abc6-9876e0f8fe55",
+                "isActive": true,
+                "balance": "$1,123.86",
+                "picture": "http://placehold.it/32x32",
+                "level": 31,
+                "highlight": "green",
+                "about": "In enim pariatur nostrud qui et duis ullamco consectetur. In ea quis exercitation id ipsum Lorem nulla tempor. Fugiat deserunt in elit sit laborum. Proident anim est mollit anim consequat culpa elit labore sint deserunt minim sunt reprehenderit velit. Ut ea esse magna minim excepteur cillum excepteur ex ex esse excepteur laborum elit. Amet elit in aute laboris cupidatat nisi.\r\n",
+                "registered": "2017-02-13T08:19:55 +02:00",
+                "latitude": -52.737622,
+                "longitude": 43.221932,
+                "tags": [
+                  "non",
+                  "aute",
+                  "duis",
+                  "laboris",
+                  "ea",
+                  "anim",
+                  "officia"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "619458dd1757390f0c3bb480",
+      "index": 1,
+      "label": "veniam",
+      "guid": "195f33d1-2102-4273-b4d4-82d33f3e75dd",
+      "isActive": true,
+      "picture": "http://placehold.it/32x32",
+      "level": 39,
+      "about": "Voluptate sunt nulla dolor consectetur est veniam ex excepteur laborum dolor dolor irure deserunt. Dolor irure velit aliquip sunt veniam id voluptate. Est laborum nostrud id minim ad sint reprehenderit officia veniam. Culpa amet enim et proident nulla dolore Lorem tempor ea est labore. Sit pariatur occaecat aute ex et est ex consequat. Mollit nulla non sit amet.\r\n",
+      "registered": "2016-11-23T06:16:18 +02:00",
+      "latitude": 85.393266,
+      "longitude": -84.533351,
+      "connections": [
+        {
+          "_id": "619458dd53a71f4fcc175a95",
+          "index": 0,
+          "label": "ea",
+          "guid": "4f085566-32df-41e6-b756-bdf88157c738",
+          "isActive": true,
+          "picture": "http://placehold.it/32x32",
+          "level": 32,
+          "about": "Sint elit laboris officia deserunt culpa est laboris eiusmod culpa enim exercitation in aliqua sit. Adipisicing deserunt id elit reprehenderit minim enim sint cupidatat. Eiusmod incididunt commodo est fugiat minim ex cupidatat aliquip id. Amet adipisicing dolor occaecat aliqua Lorem reprehenderit id consequat et cillum anim minim proident sit. Irure voluptate cupidatat incididunt id id.\r\n",
+          "registered": "2020-02-28T03:22:14 +03:00",
+          "latitude": 73.284534,
+          "longitude": 17.526732,
+          "tags": [
+            "velit",
+            "sunt",
+            "ipsum",
+            "magna",
+            "cillum",
+            "consectetur",
+            "deserunt"
+          ]
+        },
+        {
+          "_id": "619458dd0d263a6ce98be386",
+          "index": 1,
+          "label": "cillum",
+          "guid": "9cf8a124-013a-4ed5-a846-60b8affd8450",
+          "isActive": false,
+          "picture": "http://placehold.it/32x32",
+          "level": 25,
+          "about": "Ex culpa et proident ut quis non ullamco officia ea aliquip pariatur esse est consequat. Velit cupidatat laborum amet nulla officia qui adipisicing in. Esse ut id fugiat in in laboris pariatur et sit incididunt aliqua dolor occaecat culpa. Eiusmod occaecat sit reprehenderit amet et laborum. Laborum mollit exercitation laborum incididunt ea laborum Lorem in officia ad in.\r\n",
+          "registered": "2020-06-08T08:51:21 +03:00",
+          "latitude": 19.320885,
+          "longitude": -100.63518,
+          "tags": [
+            "aute",
+            "cupidatat",
+            "elit",
+            "nisi",
+            "labore",
+            "incididunt",
+            "occaecat"
+          ]
+        },
+        {
+          "_id": "619458ddfdf9d50724df374f",
+          "index": 2,
+          "label": "sunt",
+          "guid": "18d736d3-ae4b-4073-b943-d7ebca26f4bb",
+          "isActive": true,
+          "picture": "http://placehold.it/32x32",
+          "level": 33,
+          "about": "Tempor qui consectetur dolor amet excepteur ex culpa sint. Et sit non voluptate tempor qui sint amet qui anim laboris enim Lorem sit. In nisi voluptate nulla minim ullamco. Aliqua dolore minim adipisicing reprehenderit ullamco ullamco.\r\n",
+          "registered": "2018-11-23T10:52:34 +02:00",
+          "latitude": -34.767503,
+          "longitude": 144.845254,
+          "tags": [
+            "Lorem",
+            "non",
+            "ad",
+            "ut",
+            "ex",
+            "velit",
+            "elit"
+          ]
+        },
+        {
+          "_id": "619458dd44bf8866b5652f60",
+          "index": 3,
+          "label": "excepteur",
+          "guid": "a917857a-5615-4262-a4fa-5a755b7a923d",
+          "isActive": true,
+          "picture": "http://placehold.it/32x32",
+          "level": 25,
+          "about": "Do eiusmod enim id anim laborum sit veniam. Esse consequat ea reprehenderit cillum laboris ipsum minim amet adipisicing commodo exercitation ad consequat consectetur. Magna ullamco culpa exercitation aliqua incididunt enim exercitation aliqua velit culpa enim mollit mollit. Culpa occaecat incididunt eu cupidatat aliquip dolor proident laborum qui cupidatat.\r\n",
+          "registered": "2020-12-05T10:06:14 +03:00",
+          "latitude": -21.729373,
+          "longitude": -157.105206,
+          "tags": [
+            "velit",
+            "irure",
+            "ex",
+            "excepteur",
+            "tempor",
+            "voluptate",
+            "ut"
+          ]
+        },
+        {
+          "_id": "619458dde415c9477f487747",
+          "index": 4,
+          "label": "laboris",
+          "guid": "997462e9-3702-47ad-a78d-ad1f3b40a7b9",
+          "isActive": true,
+          "picture": "http://placehold.it/32x32",
+          "level": 25,
+          "about": "Cillum cupidatat irure adipisicing ullamco consectetur exercitation mollit et adipisicing reprehenderit. Esse eiusmod eu duis sunt laboris mollit tempor. Ea cillum cillum sit commodo cupidatat consequat fugiat. Eu ipsum amet est sit do adipisicing adipisicing aliquip. Velit ex do ea aliqua.\r\n",
+          "registered": "2020-08-16T04:02:55 +03:00",
+          "latitude": -67.39043,
+          "longitude": 58.171254,
+          "tags": [
+            "elit",
+            "cupidatat",
+            "laborum",
+            "exercitation",
+            "velit",
+            "elit",
+            "magna"
+          ]
+        }
+      ],
+      "tags": [
+        "sit",
+        "mollit",
+        "irure",
+        "quis",
+        "voluptate",
+        "magna",
+        "fugiat"
+      ],
+      "folders": [
+        {
+          "id": 0,
+          "name": "mollit",
+          "label": "folder-label",
+          "highlight": "orange",
+          "files": [
+            {
+              "id": 0,
+              "name": "quis",
+              "label": "file-label",
+              "balance": "$2,253.01",
+              "highlight": "brown",
+              "connection": {
+                "_id": "619458ddf4941a9d14b76a27",
+                "index": 0,
+                "label": "sunt",
+                "guid": "519777c2-df8f-42a6-979c-68a81f64bac7",
+                "isActive": true,
+                "balance": "$3,111.04",
+                "picture": "http://placehold.it/32x32",
+                "level": 20,
+                "highlight": "yellow",
+                "about": "Irure ut enim aute sit labore irure sunt elit. Proident dolore tempor proident anim pariatur irure deserunt. Reprehenderit ipsum dolor deserunt fugiat consequat fugiat ipsum anim nisi enim. Veniam minim elit est elit. Amet est veniam aute adipisicing et ipsum nostrud. Occaecat ullamco eiusmod fugiat est ullamco.\r\n",
+                "registered": "2021-07-29T09:41:00 +03:00",
+                "latitude": -76.967839,
+                "longitude": 14.824502,
+                "tags": [
+                  "nulla",
+                  "dolore",
+                  "Lorem",
+                  "eu",
+                  "dolor",
+                  "enim",
+                  "consequat"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "consequat",
+          "label": "folder-label",
+          "highlight": "blue",
+          "files": [
+            {
+              "id": 0,
+              "name": "commodo",
+              "label": "file-label",
+              "balance": "$2,343.15",
+              "highlight": "green",
+              "connection": {
+                "_id": "619458dd6cbd75199f1adbed",
+                "index": 0,
+                "label": "excepteur",
+                "guid": "5e278bfe-0fa0-4bec-8b46-90b1f0a542c4",
+                "isActive": true,
+                "balance": "$1,959.91",
+                "picture": "http://placehold.it/32x32",
+                "level": 32,
+                "highlight": "red",
+                "about": "Officia nisi ut sit est cillum tempor tempor sunt eiusmod adipisicing ullamco fugiat enim sint. Duis voluptate eu eiusmod do sunt amet pariatur. Minim amet fugiat exercitation nisi eiusmod labore. Et ullamco elit id aliquip nostrud magna exercitation. Consequat est Lorem exercitation aute exercitation adipisicing magna cillum duis eiusmod. Eiusmod deserunt enim magna culpa irure. Nisi magna anim ad est incididunt veniam adipisicing velit ut mollit.\r\n",
+                "registered": "2018-01-15T11:23:13 +02:00",
+                "latitude": -56.328969,
+                "longitude": 153.450211,
+                "tags": [
+                  "proident",
+                  "ut",
+                  "excepteur",
+                  "duis",
+                  "proident",
+                  "et",
+                  "consequat"
+                ]
+              }
+            },
+            {
+              "id": 1,
+              "name": "velit",
+              "label": "file-label",
+              "balance": "$3,885.49",
+              "highlight": "red",
+              "connection": {
+                "_id": "619458dd4b0eb0499db703ba",
+                "index": 1,
+                "label": "tempor",
+                "guid": "e81bfe46-a461-451a-ac7f-357e999a349b",
+                "isActive": true,
+                "balance": "$3,490.86",
+                "picture": "http://placehold.it/32x32",
+                "level": 22,
+                "highlight": "green",
+                "about": "Consequat reprehenderit labore amet enim laborum exercitation consectetur velit ullamco adipisicing reprehenderit deserunt. Do cillum dolore amet laboris irure esse aliquip proident nulla ut occaecat nostrud. Eiusmod ut quis qui magna reprehenderit amet eu veniam sint nisi. Mollit et aliqua in irure ad excepteur sunt aliquip sit. Magna voluptate aute do amet incididunt pariatur voluptate nisi magna voluptate. Quis qui id qui non aliqua consectetur voluptate voluptate in culpa non occaecat elit cupidatat.\r\n",
+                "registered": "2016-06-26T02:33:52 +03:00",
+                "latitude": 52.230545,
+                "longitude": 1.073513,
+                "tags": [
+                  "tempor",
+                  "veniam",
+                  "aliqua",
+                  "nulla",
+                  "ex",
+                  "ea",
+                  "minim"
+                ]
+              }
+            },
+            {
+              "id": 2,
+              "name": "aliquip",
+              "label": "file-label",
+              "balance": "$2,221.34",
+              "highlight": "green",
+              "connection": {
+                "_id": "619458dd88061d2980bd9383",
+                "index": 2,
+                "label": "esse",
+                "guid": "17900dbb-13cb-429a-896e-5a274fa0cb35",
+                "isActive": true,
+                "balance": "$3,858.58",
+                "picture": "http://placehold.it/32x32",
+                "level": 40,
+                "highlight": "yellow",
+                "about": "Labore veniam aute labore nostrud sunt mollit exercitation reprehenderit sit mollit excepteur consectetur. Amet culpa cillum eu cillum nulla enim id officia. Et dolore officia voluptate pariatur anim qui do Lorem pariatur. Id in aliqua dolore sunt aliqua commodo proident et minim id incididunt deserunt adipisicing dolore. Veniam ea veniam occaecat et.\r\n",
+                "registered": "2014-06-26T06:28:25 +03:00",
+                "latitude": -64.896902,
+                "longitude": 34.484817,
+                "tags": [
+                  "ea",
+                  "culpa",
+                  "mollit",
+                  "tempor",
+                  "officia",
+                  "pariatur",
+                  "nisi"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "nostrud",
+          "label": "folder-label",
+          "highlight": "blue",
+          "files": [
+            {
+              "id": 0,
+              "name": "elit",
+              "label": "file-label",
+              "balance": "$1,452.06",
+              "highlight": "purple",
+              "connection": {
+                "_id": "619458dd7e44efe7457d5e13",
+                "index": 0,
+                "label": "voluptate",
+                "guid": "7d76c564-16a1-4ca2-bddf-2a6de64e0a5d",
+                "isActive": true,
+                "balance": "$3,492.88",
+                "picture": "http://placehold.it/32x32",
+                "level": 20,
+                "highlight": "blue",
+                "about": "Ex qui excepteur labore duis incididunt laboris ad qui mollit qui duis sunt occaecat sit. Sunt ea in labore fugiat ipsum non culpa Lorem consequat. Laborum veniam laboris reprehenderit consequat aute ipsum et id est officia excepteur pariatur esse. Do sit consectetur veniam anim ad ad cillum. Eiusmod eu veniam amet fugiat adipisicing veniam proident commodo. Eu eiusmod nisi Lorem proident.\r\n",
+                "registered": "2020-06-04T08:07:55 +03:00",
+                "latitude": -56.851603,
+                "longitude": 159.190845,
+                "tags": [
+                  "elit",
+                  "velit",
+                  "id",
+                  "velit",
+                  "id",
+                  "veniam",
+                  "est"
+                ]
+              }
+            },
+            {
+              "id": 1,
+              "name": "reprehenderit",
+              "label": "file-label",
+              "balance": "$1,206.47",
+              "highlight": "yellow",
+              "connection": {
+                "_id": "619458dd0a87e75b6a00f8a7",
+                "index": 1,
+                "label": "reprehenderit",
+                "guid": "bcb48a1b-e105-499d-afd2-f7673f4d4c94",
+                "isActive": false,
+                "balance": "$3,861.00",
+                "picture": "http://placehold.it/32x32",
+                "level": 29,
+                "highlight": "blue",
+                "about": "Duis labore cupidatat ad elit sint exercitation mollit laborum proident commodo Lorem. Voluptate magna esse laboris ullamco esse adipisicing reprehenderit consectetur amet ea eu ipsum anim aliquip. Ea id cillum ea excepteur qui nulla labore dolore occaecat dolor tempor consequat aliqua sunt. Veniam enim officia eiusmod id Lorem ullamco elit nulla magna. Lorem dolore irure duis ex exercitation consequat elit laborum pariatur aliqua.\r\n",
+                "registered": "2017-05-16T04:12:19 +03:00",
+                "latitude": 64.020768,
+                "longitude": -144.147529,
+                "tags": [
+                  "dolor",
+                  "id",
+                  "id",
+                  "anim",
+                  "ex",
+                  "cillum",
+                  "est"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "consequat",
+          "label": "folder-label",
+          "highlight": "green",
+          "files": [
+            {
+              "id": 0,
+              "name": "anim",
+              "label": "file-label",
+              "balance": "$2,275.79",
+              "highlight": "red",
+              "connection": {
+                "_id": "619458dd37246f33d3c99afd",
+                "index": 0,
+                "label": "non",
+                "guid": "ec675a7e-16e3-4282-82e0-1cb7cf6bc858",
+                "isActive": false,
+                "balance": "$3,610.74",
+                "picture": "http://placehold.it/32x32",
+                "level": 26,
+                "highlight": "purple",
+                "about": "Amet qui sint excepteur adipisicing consectetur laboris commodo dolore do Lorem et pariatur fugiat. Anim adipisicing in eu exercitation excepteur aliquip minim velit labore veniam laboris. Pariatur officia amet ipsum consequat Lorem veniam cillum ex ullamco.\r\n",
+                "registered": "2017-08-30T11:12:58 +03:00",
+                "latitude": -35.707111,
+                "longitude": 37.046431,
+                "tags": [
+                  "elit",
+                  "consectetur",
+                  "occaecat",
+                  "nisi",
+                  "voluptate",
+                  "deserunt",
+                  "non"
+                ]
+              }
+            },
+            {
+              "id": 1,
+              "name": "aliqua",
+              "label": "file-label",
+              "balance": "$3,025.81",
+              "highlight": "blue",
+              "connection": {
+                "_id": "619458ddbdfd5377b42705c0",
+                "index": 1,
+                "label": "officia",
+                "guid": "a2ecaddc-71fe-45d1-8c2b-1fa220fa1c50",
+                "isActive": true,
+                "balance": "$3,228.36",
+                "picture": "http://placehold.it/32x32",
+                "level": 28,
+                "highlight": "red",
+                "about": "Enim elit cillum amet et ut quis cupidatat occaecat proident dolore elit deserunt officia. Quis ipsum consequat exercitation do nulla. Sit qui ipsum id ea reprehenderit esse laboris tempor commodo reprehenderit nisi non eu.\r\n",
+                "registered": "2015-10-17T06:06:41 +03:00",
+                "latitude": -21.644991,
+                "longitude": 64.253515,
+                "tags": [
+                  "nostrud",
+                  "exercitation",
+                  "sunt",
+                  "eu",
+                  "dolore",
+                  "excepteur",
+                  "eiusmod"
+                ]
+              }
+            },
+            {
+              "id": 2,
+              "name": "id",
+              "label": "file-label",
+              "balance": "$1,938.89",
+              "highlight": "brown",
+              "connection": {
+                "_id": "619458dd3d3bc6fed382f3c3",
+                "index": 2,
+                "label": "nulla",
+                "guid": "4b4fbfa4-a5e5-4505-bf95-809cd9823ca3",
+                "isActive": true,
+                "balance": "$2,616.56",
+                "picture": "http://placehold.it/32x32",
+                "level": 32,
+                "highlight": "brown",
+                "about": "Laborum aute aliqua esse nostrud esse esse sit incididunt laboris enim consequat est ad. Ullamco minim sunt aute aliqua cupidatat aliqua elit consectetur est mollit elit in tempor esse. Ut ut pariatur ipsum labore ea Lorem do id nulla mollit ad cupidatat proident anim. Mollit elit consequat minim consequat velit non occaecat duis commodo aute eiusmod consequat sint. Ullamco non aliqua labore dolor nisi deserunt. Ad pariatur Lorem anim tempor officia magna qui cillum nisi in sunt esse aute.\r\n",
+                "registered": "2019-08-01T08:55:41 +03:00",
+                "latitude": -59.940455,
+                "longitude": -12.464479,
+                "tags": [
+                  "nostrud",
+                  "reprehenderit",
+                  "irure",
+                  "velit",
+                  "voluptate",
+                  "et",
+                  "laboris"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "619458dd071d8a919ba4b382",
+      "index": 2,
+      "label": "exercitation",
+      "guid": "25970b87-2dcc-403c-b47d-5db4780601d5",
+      "isActive": false,
+      "picture": "http://placehold.it/32x32",
+      "level": 28,
+      "about": "Ex pariatur eu tempor excepteur incididunt in deserunt pariatur in cupidatat cupidatat. Mollit consequat incididunt ex duis. Adipisicing ipsum ullamco nostrud aliquip adipisicing ullamco dolor commodo nisi minim ullamco elit deserunt sunt. Deserunt in sit id culpa quis non eiusmod nisi nulla enim.\r\n",
+      "registered": "2019-12-21T10:04:05 +03:00",
+      "latitude": 10.431287,
+      "longitude": -146.209683,
+      "connections": [
+        {
+          "_id": "619458dda3422b971597d0ca",
+          "index": 0,
+          "label": "elit",
+          "guid": "dbd8faa2-2a94-426a-a073-747945db74c1",
+          "isActive": true,
+          "picture": "http://placehold.it/32x32",
+          "level": 25,
+          "about": "Duis voluptate Lorem veniam proident nostrud excepteur exercitation nisi velit. Non sunt veniam sint quis occaecat ut quis eiusmod eu incididunt nisi ullamco ad ea. Aute proident ex veniam eiusmod qui ea ex fugiat amet ad aliquip sit irure aute. Amet non enim ut proident aute laborum elit adipisicing duis nulla pariatur. Culpa irure et duis id qui aute culpa proident commodo id do exercitation excepteur.\r\n",
+          "registered": "2017-11-03T10:58:35 +02:00",
+          "latitude": 47.343097,
+          "longitude": 136.036483,
+          "tags": [
+            "esse",
+            "incididunt",
+            "laboris",
+            "excepteur",
+            "ad",
+            "eiusmod",
+            "exercitation"
+          ]
+        },
+        {
+          "_id": "619458dd0780ae5aa747f53b",
+          "index": 1,
+          "label": "incididunt",
+          "guid": "41e9beae-052b-43a2-ba9b-96e0a62fc3d7",
+          "isActive": false,
+          "picture": "http://placehold.it/32x32",
+          "level": 20,
+          "about": "Minim consequat laborum aute aliqua eiusmod consectetur deserunt. Esse magna eiusmod mollit pariatur ad in tempor laboris. Adipisicing eiusmod qui incididunt et elit veniam eiusmod Lorem deserunt consectetur ipsum ex velit Lorem.\r\n",
+          "registered": "2019-10-08T09:50:05 +03:00",
+          "latitude": -75.465864,
+          "longitude": -107.40024,
+          "tags": [
+            "officia",
+            "ipsum",
+            "amet",
+            "excepteur",
+            "eiusmod",
+            "ex",
+            "minim"
+          ]
+        },
+        {
+          "_id": "619458dd0aef356c4c6a8f5b",
+          "index": 2,
+          "label": "minim",
+          "guid": "8923dcae-107a-4aa2-be6d-e68a78c6348b",
+          "isActive": false,
+          "picture": "http://placehold.it/32x32",
+          "level": 31,
+          "about": "Incididunt adipisicing qui fugiat nostrud consequat dolore. Excepteur amet aute elit cillum eu nostrud. Exercitation consequat mollit fugiat et id ea exercitation minim. Ad proident et cillum sit culpa do consectetur fugiat sit do deserunt occaecat non. Irure dolore Lorem pariatur exercitation ipsum consectetur do minim culpa occaecat exercitation id. Laboris sint esse sint Lorem ipsum id adipisicing duis eu aute occaecat est pariatur.\r\n",
+          "registered": "2014-04-02T12:43:18 +03:00",
+          "latitude": -67.746436,
+          "longitude": 176.658535,
+          "tags": [
+            "irure",
+            "do",
+            "veniam",
+            "id",
+            "nisi",
+            "consequat",
+            "ea"
+          ]
+        }
+      ],
+      "tags": [
+        "do",
+        "eu",
+        "velit",
+        "fugiat",
+        "sunt",
+        "Lorem",
+        "incididunt"
+      ],
+      "folders": [
+        {
+          "id": 0,
+          "name": "sint",
+          "label": "folder-label",
+          "highlight": "orange",
+          "files": [
+            {
+              "id": 0,
+              "name": "sunt",
+              "label": "file-label",
+              "balance": "$1,488.40",
+              "highlight": "purple",
+              "connection": {
+                "_id": "619458dde07dbe408da8696d",
+                "index": 0,
+                "label": "deserunt",
+                "guid": "7a7e78f5-1bad-4491-86c4-371a15be93c1",
+                "isActive": false,
+                "balance": "$3,335.45",
+                "picture": "http://placehold.it/32x32",
+                "level": 36,
+                "highlight": "purple",
+                "about": "Occaecat consectetur id irure ut irure cillum. Officia nulla occaecat consectetur reprehenderit esse incididunt sit culpa. Labore cupidatat ipsum et nostrud aliquip incididunt esse ullamco. Consequat enim deserunt est occaecat Lorem. Fugiat in pariatur mollit nostrud excepteur nulla in aute quis pariatur qui exercitation laboris. Veniam ullamco adipisicing ea consectetur sit esse ut sit tempor reprehenderit dolor pariatur deserunt sit.\r\n",
+                "registered": "2021-09-24T08:47:45 +03:00",
+                "latitude": 12.896853,
+                "longitude": -122.977314,
+                "tags": [
+                  "nostrud",
+                  "laboris",
+                  "ex",
+                  "commodo",
+                  "Lorem",
+                  "in",
+                  "cillum"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "adipisicing",
+          "label": "folder-label",
+          "highlight": "red",
+          "files": [
+            {
+              "id": 0,
+              "name": "aute",
+              "label": "file-label",
+              "balance": "$1,467.24",
+              "highlight": "yellow",
+              "connection": {
+                "_id": "619458ddd5f4e3fb33917d8b",
+                "index": 0,
+                "label": "elit",
+                "guid": "087e7e43-3e63-4706-a3ff-f476829768d3",
+                "isActive": false,
+                "balance": "$1,384.40",
+                "picture": "http://placehold.it/32x32",
+                "level": 31,
+                "highlight": "green",
+                "about": "Eiusmod adipisicing elit nulla sunt tempor officia nulla ea veniam. Occaecat excepteur tempor minim eu consequat velit duis quis anim fugiat aliqua. Amet adipisicing fugiat veniam officia dolore enim in qui nisi. Nostrud incididunt commodo Lorem ea anim eu magna fugiat magna. Qui consectetur exercitation Lorem nisi.\r\n",
+                "registered": "2020-03-20T11:58:22 +03:00",
+                "latitude": -72.429987,
+                "longitude": -89.888579,
+                "tags": [
+                  "consequat",
+                  "aute",
+                  "veniam",
+                  "consequat",
+                  "sunt",
+                  "qui",
+                  "eu"
+                ]
+              }
+            },
+            {
+              "id": 1,
+              "name": "laborum",
+              "label": "file-label",
+              "balance": "$2,286.48",
+              "highlight": "red",
+              "connection": {
+                "_id": "619458ddbda92566a9429c95",
+                "index": 1,
+                "label": "culpa",
+                "guid": "95e57f52-6947-4f39-9024-78e3ad371f08",
+                "isActive": false,
+                "balance": "$3,186.83",
+                "picture": "http://placehold.it/32x32",
+                "level": 21,
+                "highlight": "blue",
+                "about": "Aute laborum deserunt incididunt ullamco magna. Id excepteur qui cupidatat mollit in officia id tempor non culpa. Exercitation pariatur commodo in nisi dolor nostrud Lorem sint officia excepteur. Sint culpa labore do consequat nulla id ullamco.\r\n",
+                "registered": "2018-04-09T09:36:04 +03:00",
+                "latitude": 32.815159,
+                "longitude": 171.623123,
+                "tags": [
+                  "anim",
+                  "nulla",
+                  "incididunt",
+                  "cupidatat",
+                  "fugiat",
+                  "amet",
+                  "nostrud"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
