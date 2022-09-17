@@ -5,6 +5,7 @@ describe('airship id validation',
         [547020743789, true], 
         [301354030348, true], 
         [301354030349, false],
-        [123456789872, false]
+        [123456789872, false],
+        [121212121120, true]
     ])
         ('when values is %s the result is %s', (code, expected) => expect(validId(code)).toBe(expected)))
